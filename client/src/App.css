@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login, .register {
+    opacity: 80%;
+    font-weight: bold;
+    font-size: medium;
+}
+
+body{
+    color: #222;
+    font-family: sans-serif;
+}
+main{
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+header a.logo{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+header nav{
+    display: flex;
+    gap: 15px;
+}
+
+header nav a{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.entry{
+    display: grid;
+    grid-template-columns: .9fr 1.1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.info{
+    margin-bottom: 10px;
+}
+
+.info a ,time{
+    opacity: 80%;
+    font-size: small;
+}
+
+.info a{
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+
+
+
+
+/* login and regiter pages */
+
+.login, .register{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login input, .register input{
+    padding: 10px;
+    /* text-align: center; */
+    font-size: large;
+    width: 40%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.login button, .register button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: large;
+    background: black;
+    color: aliceblue;
+    box-shadow: 1px 1px 4px rgba(15, 31, 24, 0.4);
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 20%;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+
+.login button:hover, .register button:hover{
+    color: #222;
+    border: 1px solid black;
+    background: white;
+}
